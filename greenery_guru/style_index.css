@@ -1,0 +1,141 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.top-container {
+	width:100%;
+	background-image: url("img/index-img.webp");
+	border-bottom: 10px solid black;
+	padding: 1em;
+	text-align: center;
+}
+
+.top-text {
+	text-align: center;
+	color: white;
+	padding-top: 80px;
+}
+
+.top-text h1 {
+	font-size: 90px;
+}
+
+.top-text h2 {
+	margin-top: 20px;
+	font-size: 50px;
+	padding-top: 10px;
+
+}
+.top-container p {
+	margin-top: 20px;
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+
+/* Photo Container */
+.image-container {
+	max-width: 1400px;
+	width: 95%;
+	margin-top: 2em;
+}
+
+/* Buttons */
+.slide-button{
+	position: absolute;
+	top: 78%;
+	height: 45px;
+	width: 45px;
+	border: none;
+	cursor: pointer;
+	background: white;
+	border-radius: 50%;
+	justify-content:center;
+}
+
+.slide-button:hover {
+	background: #ccc;
+}
+
+.slide-button img{
+	height: 40%;
+	width: 30%;
+}
+
+.slide-container .slide-button#left {
+	transform: scaleX(-1);
+	left: 13%;
+	display: none;
+}
+
+.slide-container .slide-button#right {
+	right: 13%;
+}
+
+	
+
+.image-list {
+	display: grid;
+	gap: 28px;
+	overflow-x: hidden;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+.image-list::-webkit-scrollbar {
+	display: none;
+}
+
+.image-box {
+	height: 310px;
+	width: 310px;
+	object-fit: cover;
+}
+
+
+/*
+.slider-scrollbar {
+	height: 24px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.scrollbar-track {
+	height: 2px;
+	width: 100%;
+	background: #ccc;
+	position: relative;
+	border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+	height: 4px;
+}
+
+.scrollbar-thumb {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	background: #000;
+	border-radius: inherit;
+	cursor: grab;
+}
+
+.scrollbar-thumb:active {
+	cursor: grabbing;
+	height: 8px;
+	top: -2px;
+}
+
+.scrollbar-thumb::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -10px;
+	bottom: -10px;
+} */
+
+

@@ -1,0 +1,56 @@
+.faqTitle{
+	padding-top: 1em;
+	text-align: center;
+	letter-spacing: 5px;
+	color: black;
+	font-size: 30px;
+}
+
+.plant_container {
+	display: flex;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+}
+
+/* Plant Names */
+h2 {
+	width: 100%;
+	font-size: 40px;
+	color: rgb(46,139,87);
+	margin-top: 40px;
+}
+
+h2 a:link, h2 a:visited {
+	text-decoration: none;
+	color: rgb(46,139,87);
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+
+/* Q and A symbol*/
+h3 {
+	color: rgb(21,71,52);
+	font-size: 50px;
+}
+
+/* Questions and Answers */
+.plant_container h1{
+	width: 10%;
+}
+
+.plant_container p {
+	width: 92%;
+	font-size: 24px;
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+
+.question {
+	font-weight: bold;
+}

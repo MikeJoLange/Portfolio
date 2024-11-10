@@ -1,0 +1,72 @@
+fieldset {
+	border: 0;
+}
+
+.login {
+	position: flex;
+	margin-top: 200px;
+}
+
+.login legend {
+	font-size: 40px;
+	margin: 0 auto;
+}
+.login div {
+	width: 30%;
+	margin: 0 auto;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.login input{
+	display: flex;
+	width: 85%;
+	padding: 12px 20px;
+	margin: 3em auto;
+}
+
+.login input#password {
+	margin-bottom: 1em;
+}
+
+.forgotPass {
+	display: flex;
+	margin-left: 2em;
+	color: blue;
+	text-decoration: none;
+}
+
+.login_page_btn {
+	display: flex;
+	background-color: rgb(46,139,87);
+	border: 2px solid white;
+	margin: 4em auto 3em auto;
+	padding: 15px 40px;
+	border-radius: 25px;
+}
+	
+.login_page_btn:hover, .login_page_btn:hover a {
+	background-color: rgb(154,180,134);
+}
+
+.login_page_btn a{
+	color: white;
+	letter-spacing: 2px;
+	text-decoration: none;
+	background-color: rgb(46,139,87);
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.signUp {
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: green;
+	text-decoration: none;
+	width: 30%;
+	margin: 0 auto;
+}
+a.signUp {
+	display: flex;
+	margin: 1em auto;
+}

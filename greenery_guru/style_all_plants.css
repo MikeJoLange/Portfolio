@@ -1,0 +1,240 @@
+/*
+   Final Project
+   Filename:    style_all_plants.css
+*/
+
+
+/* Header styles */
+.careBanner img#logoImg {
+   display: block;
+   width: 100%;
+   background: linear-gradient(to bottom, ivory 90%, rgb(100, 102, 100));
+   font: white;
+   border-bottom: 1px solid;
+   color: white;
+   position: static;
+}
+
+
+/* Article Styles */
+article { 
+   background: white;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   border: 5px solid gray;
+}
+
+article section, article nav.horizontal {
+   -webkit-flex: 1 1 200px;
+   flex: 1 1 200px;
+}
+
+section p {
+   margin: 20px;
+}
+
+/* Table Styles */
+table.schedule {
+	border: 10px outset rgb(51, 77, 77);
+	border-collapse: collapse;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+
+/* Table Cell Styles */
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
+	padding: 5px;
+	vertical-align: center;
+}
+
+
+/* Row Group Styles */
+table.schedule thead {
+	background: rgb(224, 224, 209);
+	color: black;
+}
+
+table.schedule thead tr {
+	height: 55px;
+}
+
+.schedule a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+.schedule th:hover  {
+	background-color: rgb(154,180,134);
+
+}
+
+.schedule th:hover a {
+	color: white;
+
+}
+
+/* Column Group Styles */
+col#firstCol {
+	background: rgb(218, 210, 218);
+	width: 9%;
+}
+
+col.dayCols {
+	background: rgb(255, 220, 255);
+	width: 9%;
+}
+
+table.schedule {
+	background: white;
+	border: 4px outset rgb(0, 0, 0);
+	border-collapse: collapse;
+	font-size: 1.6em;
+	width: 100%;
+}
+
+
+/* Table Cell Styles */
+table.schedule th, table.schedule td {
+	border: 1px solid gray;
+	padding: 3px;
+	vertical-align: center;
+}
+
+
+/* Row Group Styles */
+table.schedule thead {
+	background: white;
+	color: black;
+}
+
+/* Contact Us Section */
+
+/* Field set styles */
+fieldset {
+    background-color: rgb(154,180,134);
+    border: 3px solid gray;
+    margin: 10px 0px 10px 2.5%;
+	width: 90%;
+}
+
+legend {
+	background-color: white;
+	border: 3px solid gray;
+	font-size: 20px;
+    color: black;
+    padding: 2px 0px;
+    text-indent: 5px;
+    width: 100%;
+	margin-left: -3px;
+	margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+   clear: left;
+   display: block;
+   float: left;
+   font-size: 1em;
+   margin: 7px 4% 7px 50px;
+   width: 40%;
+}
+
+/* Input control styles */
+input {
+   display: block;
+   float: left;
+   font-size: 0.9em;
+   margin: 10px 0px;
+   width: 50%;
+}
+
+input#email {
+   width: 425px;
+}
+
+/* Selection list styles */
+select {
+   display: block;
+   float: left;
+   font-size: 0.9em;
+   margin: 10px 0px;
+}
+
+/* Text area styles */
+
+textarea {
+   display: block;
+   font-size: 1em;
+   float: left;
+   height: 100px;
+   margin: 10px 0px;
+   width: 50%;
+}
+
+/* Check box styles */
+
+#newsletter {
+   color: rgb(0, 0, 0);
+   float: none;
+   margin: 10px auto;
+   text-align: center;
+   width: 90%;
+}
+
+#newsletter input {
+   display: inline;
+   float: none;
+   width: 20px;
+}
+
+/* Button styles */
+
+form p {
+   text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+   display: inline;
+   float: none;
+   height: 40px;
+   width: 175px;
+}
+
+
+
+/* Page footer styles */
+footer {
+   display: block;
+   font-style: normal;
+   text-align: center;
+   font-size: 1.0em;
+   line-height: 50px;
+   height: 50px;
+   background-color: rgb(255, 255, 255);
+   border: 3px solid gray;
+   border-color: gray;
+   color: black;
+}
+
+/* ============================
+   Mobile Styles: 0px to 480px
+   ============================
+*/
+@media only screen and (max-width: 480px) {
+
+
+nav.horizontal a {
+	font-size: 1.5em;
+	line-height: 2.2em;
+}
+
+aside {
+	display: none;
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	Software Design -  Seminar
+	Final Project
+
+	All Plants
+	Authors:  Amanda Waid, Ben Palmer, Caleb Hoffman, Michael Lange
+	Date:     --/--/2024
+	Filename: all_plants.html
+
+   -->
+<head>
+   <meta charset="utf-8" />
+   <link href="style.css" rel="stylesheet" />
+   <link href="style_all_plants.css" rel="stylesheet" />
+   <title>All Plants</title>    
+</head>
+
+<header>
+	<a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<div class="dropdown">
+			<li class="dropbtn">Plants</li>
+			<div class="dropdown-content">
+				<a href="all_plants.html">All Plants</a>
+				<a href="beginner_friendly.html">Beginner-friendly Plants</a>
+				<a href="low_maintenance.html">Low Maintenance</a> 
+				<a href="pet_friendly.html">Pet Friendly Plants</a>
+				<a href="bedroom_plants.html">Bedroom Plants</a>
+			</div>
+		</div>
+		<div class="dropdown">
+		<li class="dropbtn">Care Assistance</li>
+			<div class="dropdown-content">
+				<a href="care_tools.html">Plant Care Tools</a>
+				<a href="soil_fertilizers.html">Soil & Fertilizers</a>
+				<a href="pest_insects.html">Pest and Insects</a>
+			</div>
+		</div>
+		<li><a href="faq.html">FAQ</a></li>
+		<button class="loginbtn"><a href="login.html">Login/Sign Up</a></button>
+	</ul>
+</header>
+
+<body>
+<section class="careBanner">
+	<img src="img/banners/care_instructions_banner.png" id="logoImg"  />     		        
+</section>	
+
+<article>
+	 <section>
+		<p>Click on the plant below to see detailed care instructions.</p>
+	 </section>
+</article>
+
+
+	<table class="schedule">
+		<colgroup>
+		<col id="firstCol" />
+		<col class="dayCols" span="2" />
+		</colgroup>
+		<thead>
+			<tr>
+				<th><a href="plant_pages/aloe_vera.html">Aloe Vera</a></th>
+				<th><a href="plant_pages/areca_palm.html">Areca Palm</a></th>
+				<th><a href="plant_pages/bamboo_plant.html">Bamboo Plant</a></th>
+			</tr>
+		<thead>
+		<tr>
+			<th><a href="plant_pages/boston_fern.html">Boston Fern</a></th>
+			<th><a href="plant_pages/chinese_evergreen.html">Chinese Evergreen</a></th>
+			<th><a href="plant_pages/christmas_cactus.html">Christmas Cactus</a></th>
+		</tr>
+		</thead>
+		<thead>
+		<tr>
+			<th><a href="plant_pages/dracaena.html">Dracaena</a></th>
+			<th><a href="plant_pages/english_ivy.html">English Ivy</a></th>
+			<th><a href="plant_pages/fiddle_fig_leaf.html">Fiddle Fig Leaf</a></th>
+		</tr>
+		</thead>
+		<thead>
+		<tr>
+			<th><a href="plant_pages/golden_pothos.html">Golden Pothos</a></th>
+			<th><a href="plant_pages/jade_plant.html">Jade Plant</a></th>
+			<th><a href="plant_pages/money_plant.html">Money Plant</a></th>
+		</tr>
+		</thead>
+		<thead>
+		<tr>
+			<th><a href="plant_pages/peace_lily.html">Peace Lily</a></th>
+			<th><a href="plant_pages/philodendron.html">Philodendron</a></th>
+			<th><a href="plant_pages/pothos.html">Pothos</a></th>
+		</tr>
+		</thead>
+		<thead>
+		<tr>
+			<th><a href="plant_pages/rubber_plant.html">Rubber Plant</a></th>
+			<th><a href="plant_pages/snake_plant.html">Snake Plant</a></th>
+			<th><a href="plant_pages/spider_plant.html">Spider Plant</a></th>
+		</tr>
+		</thead>
+		<thead>
+		<tr>
+			<th><a href="plant_pages/succulents.html">Succulents</a></th>
+			<th><a href="plant_pages/zz_plant.html">ZZ Plant</a></th>
+			<th></th>
+		</tr>
+		</thead>
+			   
+</table>
+	
+<!--
+<section class="contact">
+	<p>Send a message with any questions! Required (*)</p>
+	
+	<form id="FAQ" name="FAQ"
+			method="post">
+			
+			<fieldset id="custInfo">
+				<legend>Customer Information</legend>
+				<label for="custname">Name*:</label>
+				<input name="custname" id="custname" 
+						placeholder="first and last name"
+						required="required" />
+				<label for="email">Email*:</label>
+				<input name="email" id="email" type="email"
+						placeholder="email address"
+						required="required" />
+				<label for="phone">Phone:</label>
+				<input name="phone" id="phone" type="tel"
+						placeholder="(nnn) nnn-nnnn"
+						pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$ /> 						
+			</fieldset>
+			
+			<fieldset id="experience">
+				<label for="comments">Type your questions and suggestions:</label>
+				<textarea name="comments" id="comments"></textarea>
+			</fieldset>
+			
+			<label id="newsletter"> 
+			<input type="checkbox" name="newscb" />
+			Email me your newsletter!
+			</label>
+			
+			<p>
+				<input type="submit" value="Submit" />
+				<input type="reset" value="Cancel" />
+			</p>
+				
+	</form>
+</section> 
+-->	
+</body>	
+<footer></footer>
+</html>
